@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962113194054",
+    "project_id": "mygame2022-c5efe",
+    "storage_bucket": "mygame2022-c5efe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962113194054:android:b364457e0093021626a247",
+        "android_client_info": {
+          "package_name": "tamil.words.game.unscramble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962113194054-rc2sjcmg7bfpk466g9bolmbt3bd4bmdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkzXG-BdBFl1keUBTW2qWmBNjS4p4R3DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962113194054-rc2sjcmg7bfpk466g9bolmbt3bd4bmdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

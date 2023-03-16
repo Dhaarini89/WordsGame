@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.unscramble">
+    package="tamil.words.game.unscramble">
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
  </uses-permission>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE">
@@ -8,38 +8,38 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@drawable/logowordgame"
+        android:icon="@drawable/img2"
+        android:roundIcon="@drawable/img2"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/logowordgame"
         android:supportsRtl="true"
         android:theme="@style/Theme.Unscramble">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~1033173712"/>
+            android:value="ca-app-pub-4058144912657239~2619118770"/>
         <provider
         android:name="androidx.core.content.FileProvider"
-        android:authorities="com.example.android.unscramble.fileprovider"
-        android:grantUriPermissions="true"
-            android:exported="false">
+        android:authorities="tamil.words.game.unscramble.fileprovider"
+            android:exported="false"
+        android:grantUriPermissions="true">
         <meta-data
             android:name="android.support.FILE_PROVIDER_PATHS"
             android:resource="@xml/fileprovider" />
     </provider>
         <activity
-            android:name=".ui.game.Welcomeuser"
+            android:name="tamil.words.game.unscramble.ui.game.Welcomeuser"
             android:exported="true" />
         <activity
-            android:name=".ui.game.login.LoginActivity"
+            android:name="tamil.words.game.unscramble.ui.game.login.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.game.LevelsActivity"
+            android:name="tamil.words.game.unscramble.ui.game.LevelsActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="tamil.words.game.unscramble.MainActivity"
             android:exported="true"
-            android:parentActivityName=".ui.game.LevelsActivity" />
+            android:parentActivityName="tamil.words.game.unscramble.ui.game.LevelsActivity" />
         <activity
-            android:name=".ui.game.SplashScreen"
+            android:name="tamil.words.game.unscramble.ui.game.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

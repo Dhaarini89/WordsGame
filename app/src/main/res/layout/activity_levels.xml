@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="tamil.words.game.unscramble.ui.game.LevelsActivity">
     <TextView
         android:id="@+id/welcome"
         android:layout_width="150dp"
@@ -22,7 +22,7 @@
         android:textSize="12dp"
         android:maxLines="1"
         android:textStyle="bold"
-        android:layout_width="150dp"
+        android:layout_width="180dp"
         android:layout_height="30dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"

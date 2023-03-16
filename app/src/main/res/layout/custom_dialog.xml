@@ -13,22 +13,25 @@
         android:id="@+id/outerlayout"
         android:orientation="vertical"
         android:layout_height="wrap_content">
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
             android:id="@+id/applayout"
-            android:orientation="horizontal"
             android:layout_height="wrap_content">
-            <Button
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="மாத்தி யோசி"
-                android:layout_marginLeft="10dp"
-                android:textColor="@color/white"
-                android:layout_gravity="start"
-                android:textAlignment="textStart"
+                android:text="                      மாத்தி யோசி"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
                 />
-        </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img4"
+                android:layout_alignParentTop="true"/>
+        </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"

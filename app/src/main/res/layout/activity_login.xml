@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/loginlayout"
-    tools:context=".ui.game.login.LoginActivity">
+    tools:context="tamil.words.game.unscramble.ui.game.login.LoginActivity">
 
   <ImageView
       android:id="@+id/imageview"
-      android:src="@drawable/logowordgame"
+      android:src="@drawable/img4"
       android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       app:layout_constraintBottom_toTopOf="@+id/text_username"
